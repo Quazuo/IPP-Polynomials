@@ -1,0 +1,19 @@
+XD
+/**
+@mainpage Dokumentacja zadania wielomiany
+
+### Treść zadania
+
+Uwaga: aktualna treść zadania znajduje się w [Moodle](https://moodle.mimuw.edu.pl).
+
+### Opis programu
+
+Implementacja operacji na wielomianach rzadkich wielu zmiennych. 
+
+Niezmiennikami tego rozwiązania są następujące właśności każdego tworzonego przez program wielomianu: składa się z jednomianów posortowanych po wykładnikach i wszystkie jego jednomiany mają parami różne wykładniki. Niedozwolony jest przypadek, w którym powstaje zagłębiony wielomian stały (szczegóły tego warunku znajdują się w dokumentacji poly.c). Utrzymywana jest konwencja, że funkcje nie modyfikują podanych jako argumenty wielomianów i jednomianów, a jedynie tworzą nowe.
+
+W wersji 2.0 dodano implementację kalkulatora wielomianów. Niezmienniki z pierwszej wersji pozostają aktualne.
+
+W wersji 3.0 uzupełniono bibliotekę poly o funkcję PolyCompose i odpowiednio uzupełniono bibliotekę calc. Dodano również testy.
+
+*/
